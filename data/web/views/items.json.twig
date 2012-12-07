@@ -1,0 +1,10 @@
+[
+	{% for item in items %}
+	{
+		"id":"{{ item.id }}",
+		"cls":"{{ cls }}",
+		"leaf":{{ leaf }},
+		"text":"{{ item.nombre }}"
+	},
+	{% endfor %}
+]
