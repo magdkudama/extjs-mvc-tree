@@ -3,11 +3,6 @@ Ext.define('TreeSample.controller.Localidades', {
 	stores: ['Localidades'],
 	views: ['ArbolLocalidades'],
 
-	refs: [{
-		ref: 'myCountryTree',
-		selector: 'arbolLocalidades'
-	}],
-
 	init: function() {
 		this.control({
 			'arbolLocalidades': {
